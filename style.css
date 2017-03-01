@@ -1,0 +1,42 @@
+body h1{
+	font_size:15px;
+}
+
+#search,#resulat,ul{
+	margin:0;
+	padding:0;
+	border:0;
+	width:200px;
+	line-height: 1.5em;
+}
+
+#resultat li{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#resultat ul li a{
+	color:black;
+	text-decoration:none;
+	width:200px;
+	height:30px;
+	display:block;
+	text-align:center;
+	border:1px solid black;
+	border-top:0px;
+}
+
+#search{
+	border:1px solid black;
+}
+
+#resultat{
+	position:relative;
+	bottom:18px;
+}
+
+#resultat ul li a:hover{
+	background-color: grey;
+	color:white;
+}
